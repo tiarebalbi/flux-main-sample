@@ -38,7 +38,7 @@
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.2.2",
     "style-loader": "0.18.2",
-    "sw-precache-webpack-plugin": "0.11.4",
+    "sw-precache-webpack-plugin": "0.11.5",
     "url-loader": "0.5.9",
     "webpack": "3.5.1",
     "webpack-manifest-plugin": "1.2.1",
