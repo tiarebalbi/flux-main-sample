@@ -54,7 +54,7 @@
     "lint-staged": "^7.0.0",
     "npm-run-all": "^4.1.1",
     "prettier-eslint-cli": "^4.3.0",
-    "react-dev-utils": "^4.0.0",
+    "react-dev-utils": "^5.0.0",
     "react-hot-loader": "next",
     "react-test-renderer": "^16.2.0",
     "stylefmt": "^6.0.0",
