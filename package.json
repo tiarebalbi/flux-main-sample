@@ -18,7 +18,7 @@
     "case-sensitive-paths-webpack-plugin": "2.1.2",
     "css-loader": "0.28.11",
     "dotenv": "5.0.1",
-    "eslint": "4.4.1",
+    "eslint": "4.19.1",
     "eslint-config-react-app": "^2.0.0",
     "eslint-loader": "2.0.0",
     "eslint-plugin-flowtype": "2.46.1",
