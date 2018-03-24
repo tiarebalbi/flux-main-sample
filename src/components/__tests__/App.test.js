@@ -13,9 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-// @flow
 
-import * as React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import App from "../App";
+import { mount } from "enzyme";
 
-ReactDOM.render(<div />, document.getElementById('root'));
+describe("components/App", () => {
+  const wrapper = mount(<App />);
+
+  it("renders without crashing", () => {
+    expect(wrapper).toExist();
+  });
+});

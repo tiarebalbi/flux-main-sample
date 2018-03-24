@@ -1,17 +1,6 @@
 {
-  "parser": "babel-eslint",
-  "extends": [
-    "airbnb"
-  ],
-  "env": {
-    "browser": true,
-    "node": true
-  },
-  "plugins": [
-    "react",
-    "jsx-a11y",
-    "import"
-  ],
+  "extends": "react-app",
   "rules": {
+    "jsx-a11y/href-no-hash": 0
   }
 }

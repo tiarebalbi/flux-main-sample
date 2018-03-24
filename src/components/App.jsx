@@ -14,20 +14,21 @@
  * limitations under the License.
  */
 
-// flow-typed signature: cf11c66b2c3d752c24fdf3eae1b44e1c
-// flow-typed version: 21e1db763b/dotenv_v4.x.x/flow_>=v0.34.x
+import * as React from 'react';
 
-declare module "dotenv" {
-  declare type DotenvOptions = {
-    encoding?: string,
-    path?: string
-  };
-
-  declare function config(options?: DotenvOptions): boolean;
-
-  declare module.exports: {
-    config: typeof config,
-    load: typeof config,
-    parse: (src: string | Buffer) => { [string]: string }
+class App extends React.Component<{}, {}> {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1 className="App-title">Welcome to React</h1>
+        </header>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+      </div>
+    );
   }
 }
+
+export default App;
