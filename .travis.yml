@@ -13,6 +13,7 @@ install:
 
 script:
   - yarn run ci
+  - yarn run deploy
 
 after_script:
   - CODECLIMATE_REPO_TOKEN=328e760689af2f4735148ef7185619fc39e7fc89204ee803d43c8b6e7342c20f codeclimate-test-reporter < coverage/lcov.info
