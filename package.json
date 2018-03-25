@@ -1,6 +1,6 @@
 {
   "name": "@tiarebalbi/flux-main-sample",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Code Splitting with Flux and React",
   "main": "src/index.js",
   "homepage": "https://tiarebalbi.github.io/flux-main-sample",
