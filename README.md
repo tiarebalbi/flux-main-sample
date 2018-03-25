@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/tiarebalbi/flux-main-sample.svg?branch=master)](https://travis-ci.org/tiarebalbi/flux-main-sample)
 [![Test Coverage](https://lima.codeclimate.com/github/tiarebalbi/flux-main-sample/badges/coverage.svg)](https://lima.codeclimate.com/github/tiarebalbi/flux-main-sample/coverage)
 [![Code Climate](https://codeclimate.com/github/tiarebalbi/flux-main-sample/badges/gpa.svg)](https://codeclimate.com/github/tiarebalbi/flux-main-sample)
+[![](https://data.jsdelivr.com/v1/package/npm/@tiarebalbi/flux-main-sample/badge)](https://www.jsdelivr.com/package/npm/@tiarebalbi/flux-main-sample)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ----
 
@@ -10,9 +11,16 @@
 
 As you probably know, there are numerous boilerplates available for [React](https://facebook.github.io/react/), so you might be wondering why you would want to use ours. Most of the boilerplate projects come with a lot of code that you rarely need. Our boilerplate was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and provides you with a great starting point for any React project with as few lines of code as possible, especially if you want to use [Flowtype](https://flowtype.org/).
 
+| Platform       | Details                                    |
+| -------------- |:------------------------------------------:|
+| Install        | `yarn add @tiarebalbi/flux-main-sample` |
+| npm            | `@tiarebalbi/flux-main-sample`          |
+| Bundle         | [bundle.run](https://bundle.run/@tiarebalbi/flux-main-sample)  |
+| CDN            | [jsdelivr.com](https://www.jsdelivr.com/package/npm/@tiarebalbi/flux-main-sample)  |
+
 ## What do I need to get started?
 
-- [Node](https://nodejs.org/en/download/) (version 6 or later)
+- [Node](https://nodejs.org/en/download/) (version 7 or later)
 - [Yarn](https://yarnpkg.com/lang/en/docs/install/)
 
 ## What's in the box?
@@ -20,12 +28,9 @@ As you probably know, there are numerous boilerplates available for [React](http
 - [Flowtype](https://flowtype.org/) Type checker
 - [React](https://facebook.github.io/react/) User interface components
 - [Flux](http://facebook.github.io/flux/) Application Architecture For Building User Interfaces
-- [Lodash](https://lodash.com/) Utility library
 - [Babel](https://babeljs.io/) JavaScript transpiler
 - [ESLint](http://eslint.org/) JavaScript Linter
 - [Prettier](https://github.com/prettier/prettier) Code formatter
-- [PostCSS](http://postcss.org/) CSS transformer
-- [Stylelint](https://stylelint.io/) CSS Linter
 - [Webpack](https://webpack.js.org/) Module bundler
 - [Jest](https://facebook.github.io/jest/) Testing solution
 
