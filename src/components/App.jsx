@@ -14,21 +14,20 @@
  * limitations under the License.
  */
 
-import * as React from 'react';
+// @flow
 
-class App extends React.Component<{}, {}> {
+import * as React from 'react';
+import Loadable from 'react-loadable';
+
+const Loading = () => (<div>Loading</div>);
+
+const LoadableComponent = Loadable({
+  loader: () => import('@tiarebalbi/flux-module-reports'),
+  loading: Loading,
+});
+
+export default class App extends React.Component<{}> {
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
+    return <LoadableComponent />;
   }
 }
-
-export default App;

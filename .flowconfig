@@ -1,5 +1,4 @@
 [ignore]
-./decls
 .*/node_modules
 ./scripts
 ./flow-typed
@@ -9,8 +8,6 @@
 
 [libs]
 flow-typed/
-./node_modules/stylelint/decls
-decls/
 
 [options]
 suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe

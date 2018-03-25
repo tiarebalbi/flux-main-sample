@@ -14,14 +14,6 @@
  * limitations under the License.
  */
 
-import React from "react";
-import App from "../App";
-import { mount } from "enzyme";
-
-describe("components/App", () => {
-  const wrapper = mount(<App />);
-
-  it("renders without crashing", () => {
-    expect(wrapper).toExist();
-  });
-});
+declare module '@tiarebalbi/flux-module-reports' {
+  declare module.exports: any;
+}
