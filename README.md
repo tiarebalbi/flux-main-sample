@@ -7,16 +7,28 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ----
 
-## Why do I want this?
-
-As you probably know, there are numerous boilerplates available for [React](https://facebook.github.io/react/), so you might be wondering why you would want to use ours. Most of the boilerplate projects come with a lot of code that you rarely need. Our boilerplate was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and provides you with a great starting point for any React project with as few lines of code as possible, especially if you want to use [Flowtype](https://flowtype.org/).
-
 | Platform       | Details                                    |
-| -------------- |:------------------------------------------:|
-| Install        | `yarn add @tiarebalbi/flux-main-sample` |
-| npm            | `@tiarebalbi/flux-main-sample`          |
+| -------------- |--------------------------------------------|
+| Install        | `yarn add @tiarebalbi/flux-main-sample`    |
+| npm            | `@tiarebalbi/flux-main-sample`             |
 | Bundle         | [bundle.run](https://bundle.run/@tiarebalbi/flux-main-sample)  |
 | CDN            | [jsdelivr.com](https://www.jsdelivr.com/package/npm/@tiarebalbi/flux-main-sample)  |
+
+
+## Why do I want this?
+
+I want split things! No more monolithic web applications... I will try to keep it short as I totally agree with React's definitation. 
+
+>Bundling is great, but as your app grows, your bundle will grow too. Especially if you are including large third-party libraries. You need to keep an eye on the code you are including in your bundle so that you don’t accidentally make it so large that your app takes a long time to load.
+>
+> To avoid winding up with a large bundle, it’s good to get ahead of the problem and start “splitting” your bundle. Code-Splitting is a feature supported by bundlers like Webpack and Browserify (via factor-bundle) which can create multiple bundles that can be dynamically loaded at runtime.
+>
+> Code-splitting your app can help you “lazy-load” just the things that are currently needed by the user, which can dramatically improve the performance of your app. While you haven’t reduced the overall amount of code in your app, you’ve avoided loading code that the user may never need, and reduced the amount of code needed during the initial load.
+
+### Resources
+* https://reactjs.org/docs/code-splitting.html
+* https://webpack.js.org/guides/code-splitting/
+* https://github.com/jamiebuilds/react-loadable#------------guide
 
 ## What do I need to get started?
 
@@ -27,6 +39,8 @@ As you probably know, there are numerous boilerplates available for [React](http
 
 - [Flowtype](https://flowtype.org/) Type checker
 - [React](https://facebook.github.io/react/) User interface components
+- [React Router](https://github.com/ReactTraining/react-router) Declarative routing for React
+- [React Loadable](https://github.com/jamiebuilds/react-loadable) A higher order component for loading components with promises.
 - [Flux](http://facebook.github.io/flux/) Application Architecture For Building User Interfaces
 - [Babel](https://babeljs.io/) JavaScript transpiler
 - [ESLint](http://eslint.org/) JavaScript Linter
