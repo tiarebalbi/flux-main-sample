@@ -4,6 +4,7 @@
 [![Test Coverage](https://lima.codeclimate.com/github/tiarebalbi/flux-main-sample/badges/coverage.svg)](https://lima.codeclimate.com/github/tiarebalbi/flux-main-sample/coverage)
 [![Code Climate](https://codeclimate.com/github/tiarebalbi/flux-main-sample/badges/gpa.svg)](https://codeclimate.com/github/tiarebalbi/flux-main-sample)
 [![](https://data.jsdelivr.com/v1/package/npm/@tiarebalbi/flux-main-sample/badge)](https://www.jsdelivr.com/package/npm/@tiarebalbi/flux-main-sample)
+[![Open Source Helpers](https://www.codetriage.com/tiarebalbi/flux-main-sample/badges/users.svg)](https://www.codetriage.com/tiarebalbi/flux-main-sample)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ----
 
