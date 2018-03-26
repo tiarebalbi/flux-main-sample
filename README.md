@@ -15,6 +15,12 @@
 | CDN            | [jsdelivr.com](https://www.jsdelivr.com/package/npm/@tiarebalbi/flux-main-sample)  |
 
 
+## External Components
+
+| Component            | Version                                                                           |
+| -------------------- |---------------------------------------------------------------------------------- |
+| [flux-module-reports](https://github.com/tiarebalbi/flux-module-reports)  | ![npm (scoped)](https://img.shields.io/npm/v/@tiarebalbi/flux-module-reports.svg) |
+
 ## Why do I want this?
 
 I want split things! No more monolithic web applications... I will try to keep it short as I totally agree with React's definitation. 
