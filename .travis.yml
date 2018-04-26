@@ -4,7 +4,7 @@ language: node_js
 sudo: false
 
 node_js:
-  - "node" # latest stable Node.js release
+  - "9" # latest stable Node.js release
   - "7"
 
 install:
