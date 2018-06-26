@@ -5,7 +5,7 @@ sudo: false
 
 node_js:
   - "9" # latest stable Node.js release
-  - "7"
+  - "8.10.0"
 
 install:
   - yarn global add codeclimate-test-reporter
