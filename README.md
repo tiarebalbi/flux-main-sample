@@ -39,7 +39,7 @@ I want split things! No more monolithic web applications... I will try to keep i
 
 ## What do I need to get started?
 
-- [Node](https://nodejs.org/en/download/) (version 7 or later)
+- [Node](https://nodejs.org/en/download/) (version 8.10.0 or later)
 - [Yarn](https://yarnpkg.com/lang/en/docs/install/)
 
 ## What's in the box?
