@@ -30,7 +30,7 @@
     "eslint-plugin-flowtype": "2.49.3",
     "eslint-plugin-import": "2.13.0",
     "eslint-plugin-jest": "^21.15.0",
-    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-jsx-a11y": "6.1.0",
     "eslint-plugin-react": "7.10.0",
     "flow-bin": "0.75",
     "flow-coverage-report": "^0.5.0",
