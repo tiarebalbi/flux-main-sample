@@ -26,7 +26,7 @@
     "enzyme-to-json": "^3.3.3",
     "eslint": "^5.0.1",
     "eslint-config-react-app": "^2.0.0",
-    "eslint-loader": "2.0.0",
+    "eslint-loader": "2.1.0",
     "eslint-plugin-flowtype": "2.50.0",
     "eslint-plugin-import": "2.13.0",
     "eslint-plugin-jest": "^21.15.0",
