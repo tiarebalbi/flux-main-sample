@@ -43,7 +43,6 @@
     "flow:cov": "flow-coverage-report -i './src/**/*.js' -t text",
     "lint": "eslint src",
     "lint-staged": "lint-staged",
-    "precommit": "lint-staged",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -70,5 +69,10 @@
       "!**/index.js",
       "!**/registerServiceWorker.js"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
