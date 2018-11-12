@@ -40,7 +40,7 @@
     "jest-enzyme": "^7.0.0",
     "jsdom": "^13.0.0",
     "jsdom-global": "^3.0.2",
-    "lint-staged": "^7.0.0",
+    "lint-staged": "^8.0.4",
     "npm-run-all": "^4.1.1",
     "prettier-eslint-cli": "^4.3.0"
   },
