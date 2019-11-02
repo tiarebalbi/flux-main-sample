@@ -51,7 +51,7 @@
     "prettier-eslint-cli": "^5.0.0"
   },
   "scripts": {
-    "ci": "SKIP_PREFLIGHT_CHECK=true CI=true run-p flow lint-staged test:cov",
+    "ci": "SKIP_PREFLIGHT_CHECK=true CI=true run-p flow lint-staged",
     "flow": "flow",
     "flow:fetch-types": "flow-typed install",
     "flow:cov": "flow-coverage-report -i './src/**/*.js' -t text",
