@@ -1,6 +1,6 @@
 {
   "name": "@tiarebalbi/flux-main-sample",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Code Splitting with Flux and React",
   "main": "src/index.js",
   "homepage": "https://tiarebalbi.github.io/flux-main-sample",
@@ -19,7 +19,12 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.2.0"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "build"
+  ],
   "devDependencies": {
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "enzyme": "^3.10.0",
