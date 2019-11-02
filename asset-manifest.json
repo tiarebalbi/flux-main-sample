@@ -1,6 +1,20 @@
 {
-  "main.js": "static/js/main.acde6e42.js",
-  "main.js.map": "static/js/main.acde6e42.js.map",
-  "static/js/0.640c4ca7.chunk.js": "static/js/0.640c4ca7.chunk.js",
-  "static/js/0.640c4ca7.chunk.js.map": "static/js/0.640c4ca7.chunk.js.map"
+  "files": {
+    "main.js": "/flux-main-sample/static/js/main.b869a175.chunk.js",
+    "main.js.map": "/flux-main-sample/static/js/main.b869a175.chunk.js.map",
+    "runtime-main.js": "/flux-main-sample/static/js/runtime-main.fef4b28e.js",
+    "runtime-main.js.map": "/flux-main-sample/static/js/runtime-main.fef4b28e.js.map",
+    "static/js/2.0afb8714.chunk.js": "/flux-main-sample/static/js/2.0afb8714.chunk.js",
+    "static/js/2.0afb8714.chunk.js.map": "/flux-main-sample/static/js/2.0afb8714.chunk.js.map",
+    "static/js/3.bf449d08.chunk.js": "/flux-main-sample/static/js/3.bf449d08.chunk.js",
+    "static/js/3.bf449d08.chunk.js.map": "/flux-main-sample/static/js/3.bf449d08.chunk.js.map",
+    "index.html": "/flux-main-sample/index.html",
+    "precache-manifest.1b093935270bcfe0bb782533e278a96b.js": "/flux-main-sample/precache-manifest.1b093935270bcfe0bb782533e278a96b.js",
+    "service-worker.js": "/flux-main-sample/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fef4b28e.js",
+    "static/js/3.bf449d08.chunk.js",
+    "static/js/main.b869a175.chunk.js"
+  ]
 }
