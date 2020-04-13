@@ -20,7 +20,7 @@
 
 | Component            | Version                                                                           |
 | -------------------- |---------------------------------------------------------------------------------- |
-| [flux-module-reports](https://github.com/tiarebalbi/flux-module-reports)  | ![npm (scoped)](https://img.shields.io/npm/v/@tiarebalbi/flux-module-reports.svg) |
+| [flux-module-reports](https://github.com/tiarebalbi/flux-module-report)  | ![npm (scoped)](https://img.shields.io/npm/v/@tiarebalbi/flux-module-reports.svg) |
 
 ## Why do I want this?
 
