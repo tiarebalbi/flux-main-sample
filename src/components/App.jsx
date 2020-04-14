@@ -22,7 +22,7 @@ import Loadable from 'react-loadable';
 const Loading = () => (<div>Loading</div>);
 
 const LoadableComponent = Loadable({
-  loader: () => import('@tiarebalbi/flux-module-reports'),
+  loader: () => import('@tiarebalbi/flux-module-report'),
   loading: Loading,
 });
 
